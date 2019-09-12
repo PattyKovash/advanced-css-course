@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////////////////////////////////
+// TABLE OF CONTENTS
+// 1.0 - Reset
+// 2.0 - html
+// 3.0 - body
+////////////////////////////////////////////////////////////////////////////////
+
+// 1.0 - Reset
+//******************************************************************************
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+// END 1.0 - Reset
+//******************************************************************************
+
+
+// 2.0 - html
+//******************************************************************************
+
+html {
+    /* Setting the root font-size in percentage preserves the user's ability
+    to adjust the browser font-size. If we set it in px, even though the user
+    changes the browser font-size, it would not affect our hardset size. Setting
+    the root font-size in percentage is more user friendly.
+
+    Browser default font-size is typically 16px.
+    To make conversion easier on us, we want the root font size to be 10px.
+    (10 / 16) * 100 = 62.5
+    */
+    font-size: 62.5%;
+}
+
+// END 2.0 - html
+//******************************************************************************
+
+
+// 3.0 - body
+//******************************************************************************
+
+body {
+    box-sizing: border-box;
+}
+
+// END 3.0 - body
+//******************************************************************************

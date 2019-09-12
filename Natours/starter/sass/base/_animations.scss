@@ -1,0 +1,76 @@
+////////////////////////////////////////////////////////////////////////////////
+// TABLE OF CONTENTS
+// 1.0 - moveInBottom
+// 2.0 - moveInLeft
+// 3.0 - moveInRight
+////////////////////////////////////////////////////////////////////////////////
+
+// 1.0 - moveInBottom
+//******************************************************************************
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    80% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// END 1.0 - moveInBottom
+//******************************************************************************
+
+
+// 2.0 - moveInLeft
+//******************************************************************************
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// END 2.0 - moveInLeft
+//******************************************************************************
+
+
+// 3.0 - moveInRight
+//******************************************************************************
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// END 3.0 - moveInRight
+//******************************************************************************
+
+
