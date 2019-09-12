@@ -30,7 +30,8 @@ html {
     the root font-size in percentage is more user friendly.
 
     Browser default font-size is typically 16px.
-    To make conversion easier on us, we want the root font size to be 10px.
+    To make conversion easier on us, we want the root font size to be 10px but
+    in 1rem.
     (10 / 16) * 100 = 62.5
     */
     font-size: 62.5%;
